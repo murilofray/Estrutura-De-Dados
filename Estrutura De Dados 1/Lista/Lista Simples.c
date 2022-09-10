@@ -172,12 +172,10 @@ void main()
     inserirInicio(&lista,3);
     inserirInicio(&lista,2);
     inserirInicio(&lista,1);
-    inserirNaPosicao(&lista,4,2);
+    exibir(lista);
+    inserirNaPosicao(&lista,4,0);
     exibir(lista);
     inserirNaPosicao(&lista,6,4);
-    exibir(lista);
-    //inserirInicio(&lista,2);
-    removerInicio(&lista);
     exibir(lista);
     printf("%d",procurarElemento(lista,4));
 
